@@ -4,7 +4,7 @@ from tkinter import ttk, messagebox
 class ProcessMonitorUI:
     def __init__(self, root, on_select_callback, on_finalize_callback, on_search_callback):
         self.root = root
-        self.root.title("Administrador de Tareas Básico")
+        self.root.title("Administrador de Tareas")
         self.root.geometry("800x600")
         
         self.on_select_callback = on_select_callback
